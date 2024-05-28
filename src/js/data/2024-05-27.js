@@ -16,8 +16,8 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
   {
     name: "\"Hajimete no Koi ga Owaru Toki\" by ChouCho",
-    videoId: "sm5567321",
-    videoSource: VIDEOSOURCE.NICONICO,
+    videoId: "9756hj1ZE8I",
+    videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
         "NonAni3"
@@ -71,7 +71,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
     name: "\"Yuuhi Saka\" by Hanatan",
-    videoId: "MZl-wCiKqTo",
+    videoId: "qvA_eI971kA",
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
