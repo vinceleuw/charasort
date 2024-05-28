@@ -68,7 +68,7 @@ function init() {
 
     document.querySelector('.finished.save.button').addEventListener('click', () => saveProgress('Last Result'));
     document.querySelector('.finished.list.button').addEventListener('click', generateTextList);
-    document.querySelector('.finished.list.button.two').addEventListener('click', generateByIdOrName);
+    document.querySelector('.finished.list.button.two').addEventListener('click', generateBySheetIdOrName);
 
     document.querySelector('.clearsave').addEventListener('click', clearProgress);
 
@@ -594,7 +594,7 @@ function result(imageNum = 0) {
         const characterIndex = finalSortedIndexes[idx];
         const character = characterDataToSort[characterIndex];
         resultTable.insertAdjacentHTML('beforeend', res(character, rankNum));
-        finalCharacters.push({ rank: rankNum, name: character.name, Id: character.id });
+        finalCharacters.push({ rank: rankNum, name: character.name, sheetId: character.sheetId });
 
         if (idx < characterDataToSort.length - 1) {
             if (tiedDataList[characterIndex] === finalSortedIndexes[idx + 1]) {
@@ -699,8 +699,8 @@ function generateImage() {
 
 function generateByIdOrName() {
     const sortedCharacters = finalCharacters.sort((a, b) => {
-        if (finalCharacters[0].id !== null) {
-            return a.id - b.id;
+        if (finalCharacters[0].sheetId !== null) {
+            return a.sheetId - b.sheetId;
         } else {
             return a.name.localeCompare(b.name)
         }
