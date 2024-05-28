@@ -1,37 +1,29 @@
 <html>
 
 <head>
-  <link rel="shortcut icon" href="src/assets/yinyang.ico" type="image/x-icon">
-  <link rel="icon" href="src/assets/yinyang.ico" type="image/x-icon">
-  <meta charset="utf-8">
-  <meta name="og:site_name" content="Touhou Character Sorting">
-  <meta name="og:description" content="A simple website for sorting Touhou characters in a formatted list.">
-  <meta name="og:image" content="https://i.imgur.com/IZzJMk6.jpg">
-  <title>Touhou Character Sorting</title>
+    <meta charset="utf-8">
+    <meta name="og:site_name" content="WWP Song Sorter">
+    <meta name="og:description" content="A simple website for sorting WWP Rankings in a formatted list.">
+    <title>Hololive Song Sorting</title>
 
-  <link rel="stylesheet" type="text/css" href="src/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="src/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="src/css/styles.css">
 
-  <script src="src/js/data.js"></script>
-  <script src="src/js/data/2017-05-01.js"></script>
-  <script src="src/js/data/2018-02-20.js"></script>
-  <script src="src/js/data/2018-03-01.js"></script>
-  <script src="src/js/data/2019-06-07.js"></script>
-  <script src="src/js/data/2019-10-04.js"></script>
-  <script src="src/js/data/2019-10-05.js"></script>
-  <script src="src/js/data/2019-11-26.js"></script>
-  <script src="src/js/data/2021-03-29.js"></script>
-  <script src="src/js/data/2021-05-09.js"></script>
+    <script src="src/js/data.js"></script>
+    <script src="src/js/data/2024-05-27.js" type="module"></script>
 
-  <script src="src/js/html2canvas.min.js"></script>
-  <script src="src/js/lz-string.min.js"></script>
-  <script src="src/js/seedrandom.min.js"></script>
-  <script src="src/js/main.js"></script>
+    <script src="src/js/html2canvas.min.js"></script>
+    <script src="src/js/lz-string.min.js"></script>
+    <script src="src/js/seedrandom.min.js"></script>
+    <script src="src/js/main.js"></script>
 </head>
 
 <body>
 <div class="container">
-
+    <a class="banner pic" href="https://twitter.com/_r11ca/status/1752787799953342787/photo/1">
+        <img src="src/assets/ratjam.gif" width="300" alt="uuuoooooh">
+    </a>
+    <br>
     <div class="progress">
         <span class="progressbattle"></span>
         <div class="progressbar">
@@ -40,29 +32,40 @@
     </div>
 
     <div class="sorter">
-        <img src="src/assets/defaultL.jpg" class="left sort image">
+        <div class="middle">
+            <div class="starting start button">WWP Song Sorter<br><br>Click to Start!</div>
+            <div class="starting load button">Load <span></span></div>
 
-        <div class="starting start button">Touhou Project Character Sorter<br><br>Click to Start!</div>
-        <div class="starting load button">Load <span></span></div>
+        </div>
 
-        <div class="loading button"><div></div><span>Loading...</span></div>
+        <div class="sorting left" style="display: none">
+            <iframe width="500" height="345" src="" class="left sort iframe" style="display: none"></iframe>
+            <video width="500" height="345" class="left sort video" controls style="display: none"></video>
+            <div class="left sort text"><p></p></div>
+        </div>
 
-        <div class="sorting tie button">Tie</div>
-        <div class="sorting undo button">Undo</div>
-        <div class="sorting save button">Save Progress</div>
+        <div class="sorting middle">
+            <div class="sorting middle inner" style="display: none">
+                <div class="sorting tie button">No Tie</div>
+                <div class="sorting undo button">Undo</div>
+                <div class="sorting save button">Save Progress</div>
+            </div>
+        </div>
 
-        <div class="finished save button">Generate Result URL</div>
-        <div class="finished getimg button">Generate Image</div>
-        <div class="finished list button">Generate Text List</div>
+        <div style="display: none" class="sorting middle finished">
+            <div class="finished save button">Generate Result URL</div>
+            <div class="finished list button">Generate Text List</div>
+            <div class="finished list button two">Generate Miye ordered list</div>
+        </div>
 
-        <img src="src/assets/defaultR.jpg" class="right sort image">
-
-        <div class="left sort text"><p></p></div>
-        <div class="right sort text"><p></p></div>
+        <div class="sorting right" style="display: none">
+            <iframe width="500" height="345" src="" class="right sort iframe" style="display: none"></iframe>
+            <video width="500" height="345" class="right sort video" controls style="display: none"></video>
+            <div class="right sort text"><p></p></div>
+        </div>
     </div>
 
     <div class="options"></div>
-    <div class="image selector">Display Images on Result: </div>
     <div class="time taken"></div>
     <div class="results"></div>
 

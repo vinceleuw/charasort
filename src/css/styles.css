@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
+  background-color: #90add2;
 }
 
 .container {
@@ -43,7 +44,7 @@ body {
   display: grid;
   grid-template-columns: 120px 1fr 120px;
   grid-gap: 5px;
-  width: 420px;
+  width: 500px;
 }
 
 .button {
@@ -65,7 +66,6 @@ body {
 
 .sorting.button, .finished.button {
   grid-row: span 2;
-  display: none;
 }
 
 .loading.button {
@@ -79,7 +79,7 @@ body {
   margin: 50px auto;
   background-color: #333;
 
-  border-radius: 100%;  
+  border-radius: 100%;
   -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
   animation: sk-scaleout 1.0s infinite ease-in-out;
 }
@@ -92,25 +92,41 @@ body {
 }
 
 @-webkit-keyframes sk-scaleout {
-  0% { -webkit-transform: scale(0) }
+  0% {
+      -webkit-transform: scale(0)
+  }
   100% {
-    -webkit-transform: scale(1.0);
-    opacity: 0;
+      -webkit-transform: scale(1.0);
+      opacity: 0;
   }
 }
 
 @keyframes sk-scaleout {
-  0% { 
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  } 100% {
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
-    opacity: 0;
+  0% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+  }
+  100% {
+      -webkit-transform: scale(1.0);
+      transform: scale(1.0);
+      opacity: 0;
   }
 }
 
+.sorter {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+}
+
 .sorter > .image {
+  width: 260px;
+  height: 180px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.sorter > .video {
   width: 120px;
   height: 180px;
   margin: auto;
@@ -126,20 +142,31 @@ body {
 
 .sorter > .text > p {
   margin: 0.5em 5px 0px;
-  width: calc(100%-10px);
+  width: calc(100% - 10px);
   text-align: center;
   font-size: 0.8em;
   line-height: 1.5em;
 }
 
-.sorter > .left {
-  grid-column: 1 / 2;
+.sort.text {
+  height: 50px;
+  width: 500px;
   border: 1px solid #000000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.sorter > .right {
-  grid-column: 3 / 4;
-  border: 1px solid #000000;
+.sorting {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sorting.middle.inner {
+  display: inline-block;
+  width: 150px;
+  height: 200px;
 }
 
 .options {
@@ -195,15 +222,15 @@ label:hover {
 
 @media all and (min-width: 600px) {
   .results {
-    flex-flow: column wrap;
-    max-height: calc(5 * (175px + 2px) + 1 * (15px + 2px));
-    /* 2px for borders */
+      flex-flow: column wrap;
+      max-height: calc(5 * (175px + 2px) + 1 * (15px + 2px));
+      /* 2px for borders */
   }
 }
 
 @media all and (max-width: 600px) {
   .results {
-    flex-flow: column nowrap;
+      flex-flow: column nowrap;
   }
 }
 
