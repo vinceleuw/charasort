@@ -8,7 +8,7 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain series.",
     checked: true,
     sub: [
-      { name: "Non-Ani 3", key: "NonAni3", checked: false}
+      { name: "Covers", key: "Covers", checked: false}
     ]
   }
 ];
@@ -20,7 +20,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 1
@@ -31,7 +31,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 2
@@ -42,7 +42,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 3
@@ -53,7 +53,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 4
@@ -64,7 +64,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.CATBOX,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 5
@@ -75,7 +75,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 6
@@ -86,7 +86,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 7
@@ -97,7 +97,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 8
@@ -108,7 +108,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 9
@@ -119,7 +119,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 10
@@ -130,7 +130,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 11
@@ -141,7 +141,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 12
@@ -152,7 +152,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 13
@@ -163,7 +163,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 14
@@ -174,7 +174,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 15
@@ -185,7 +185,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 16
@@ -196,7 +196,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 17
@@ -207,7 +207,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 18
@@ -218,7 +218,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 19
@@ -229,7 +229,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 20
@@ -240,7 +240,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 21
@@ -251,7 +251,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 22
@@ -262,7 +262,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 23
@@ -273,7 +273,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 24
@@ -284,7 +284,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 25
@@ -295,7 +295,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.CATBOX,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 26
@@ -306,7 +306,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.CATBOX,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 27
@@ -317,7 +317,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.CATBOX,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 28
@@ -328,7 +328,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.CATBOX,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 29
@@ -339,7 +339,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.CATBOX,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 30
@@ -350,7 +350,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 31
@@ -361,7 +361,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 32
@@ -372,7 +372,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 33
@@ -383,7 +383,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 34
@@ -394,7 +394,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 35
@@ -405,7 +405,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 36
@@ -416,7 +416,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 37
@@ -427,7 +427,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 38
@@ -438,7 +438,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 39
@@ -449,7 +449,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 40
@@ -460,7 +460,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 41
@@ -471,7 +471,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 42
@@ -482,7 +482,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 43
@@ -493,7 +493,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 44
@@ -504,7 +504,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 45
@@ -515,7 +515,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 46
@@ -526,7 +526,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 47
@@ -537,7 +537,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 48
@@ -548,7 +548,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 49
@@ -559,7 +559,7 @@ dataSet[dataSetVersion].characterData = [
     videoSource: VIDEOSOURCE.YOUTUBE,
     opts: {
       ranking: [
-        "NonAni3"
+        "Covers"
       ]
     },
     sheetId: 50
