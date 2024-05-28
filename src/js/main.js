@@ -382,7 +382,7 @@ function getVideoSource(char, isLeft) {
             videoIframe.style.display = 'none';
             videoIframe.src = '';
             video.style.display = 'flex';
-            video.src = char.videoId;
+            video.src = 'http://ext.nicovideo.jp/thumb_watch/' + char.videoId;
             break;
         default:
             alert('Missing video source for ' + char.name);
