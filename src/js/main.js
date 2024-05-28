@@ -378,6 +378,12 @@ function getVideoSource(char, isLeft) {
             video.style.display = 'flex';
             video.src = char.videoId;
             break;
+        case VIDEOSOURCE.NICONICO:
+            videoIframe.style.display = 'none';
+            videoIframe.src = '';
+            video.style.display = 'flex';
+            video.src = char.videoId;
+            break;
         default:
             alert('Missing video source for ' + char.name);
     }
