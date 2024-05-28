@@ -594,7 +594,7 @@ function result(imageNum = 0) {
         const characterIndex = finalSortedIndexes[idx];
         const character = characterDataToSort[characterIndex];
         resultTable.insertAdjacentHTML('beforeend', res(character, rankNum));
-        finalCharacters.push({ rank: rankNum, name: character.name, Id: character.Id });
+        finalCharacters.push({ rank: rankNum, name: character.name, Id: character.id });
 
         if (idx < characterDataToSort.length - 1) {
             if (tiedDataList[characterIndex] === finalSortedIndexes[idx + 1]) {
