@@ -16,7 +16,7 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
   {
     name: "\"Hajimete no Koi ga Owaru Toki\" by ChouCho",
-    videoId: "http://www.nicovideo.jp/watch/sm5567321",
+    videoId: "sm5567321",
     videoSource: VIDEOSOURCE.NICONICO,
     opts: {
       ranking: [

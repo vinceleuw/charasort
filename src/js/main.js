@@ -697,7 +697,7 @@ function generateImage() {
     });
 }
 
-function generateByIdOrName() {
+function generateBySheetIdOrName() {
     const sortedCharacters = finalCharacters.sort((a, b) => {
         if (finalCharacters[0].sheetId !== null) {
             return a.sheetId - b.sheetId;
