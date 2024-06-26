@@ -10,8 +10,8 @@ dataSet[dataSetVersion].options = [
     sub: [
       { name: "Covers", key: "Covers", checked: false},
       { name: "Show By Rock!!", key: "SBR!!", checked: false},
-      { name: "Spring 2024 Openings", key: "SP2024OPS", checked: false},
-      { name: "Spring 2024 Endings", key: "SP2024EDS", checked: false}
+      { name: "Spring 2024 Openings", key: "Sp2024OPS", checked: false},
+      { name: "Spring 2024 Endings", key: "Sp2024EDS", checked: false}
     ]
   }
 ];
