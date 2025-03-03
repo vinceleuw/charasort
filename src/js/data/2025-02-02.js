@@ -7,7 +7,7 @@ import { SeismicNonAni3 } from "./ranking_data/SeismicNonAni3";
 import { Su2024OPS } from "./ranking_data/Su2024OPS";
 import { Su2024EDS } from "./ranking_data/Su2024EDS";
 
-dataSetVersion = "2024-02-02"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2025-02-02"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -37,5 +37,5 @@ dataSet[dataSetVersion].characterData = [
   ...SeismicNonAni3,
   ...Su2024OPS,
   ...Su2024EDS,
-  ...AnonT100,
+  ...AnonT100
 ];
